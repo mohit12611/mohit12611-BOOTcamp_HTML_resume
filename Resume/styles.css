@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.resume {
+    width: 870px;
+    height: auto;
+    margin: 50px auto;
+  }
+
+.resume .resume_top{
+    background-color: rgb(73, 73, 73);
+    width : 860px;
+    height : 250px;
+    
+}
+
+.resume .resume_top .resume_top1{
+    background-color: grey;
+    width : 860px;
+    height : 23px;
+    position :relative;
+    top : 15px;
+}
+
+.resume .resume_top img {
+    width : 170px;
+    height : 170px;
+    border-radius: 50%;
+    border: 5px dotted orange;
+    position :relative;
+    left : 323px;
+    top : 35px ; 
+}
+
+.resume .resume_top .resume_top_name{
+    position : relative;
+    background-color : orange;
+    width :370px;
+    height : 68px;
+    border : 1px solid orange;
+    font-family: 'Montserrat', sans-serif;
+    left: 230px;
+    bottom: 37px;
+    border-radius: 5px;
+    margin : none ;
+}
+
+.resume .resume_top_text {
+    position : relative;
+    text-align: center;
+    height : 25px;
+    width : 860px;
+    border-bottom: 2px solid black;
+}
+
+.resume .main{
+    position:relative;
+    display : flex;
+    width: 820px;
+    height: auto;
+    margin: 15px 0px 10px 20px;
+}
+
+.resume .main .resume_left{
+    width :390px;
+    height : auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-right: 22px;
+    border-right: 2px solid grey;
+
+}
+
+.resume .main .resume_right{
+    width :390px;
+    height : auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+li {
+    padding-bottom: 3px;
+}
